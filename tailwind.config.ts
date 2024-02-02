@@ -8,10 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        primary: {
-          dark: '#CC00CC',
-        },
+      colors(theme) {
+        return {
+          ...theme.colors,
+          primary: { ...theme.colors.purple },
+        };
       },
     },
   },
