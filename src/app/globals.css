@@ -11,7 +11,9 @@ body {
     button {
         @apply bg-primary px-2 py-1 text-white;
     }
+}
 
+@layer components {
     .btn {
         @apply bg-blue-500 text-white px-4 py-2 rounded border-2 border-blue-700 shadow-md;
     }
