@@ -12,6 +12,7 @@ export const metadata: Metadata = {
 
 const links = [
   { href: '/', label: 'Home' },
+  { href: '/buttons', label: 'Buttons' },
   { href: '/size-space', label: 'Size & Space' },
 ];
 
@@ -28,7 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </ul>
       </nav>
     </header>
-    <main>
+    <main className="p-2">
       {children}
     </main>
     </body>
