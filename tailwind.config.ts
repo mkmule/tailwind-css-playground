@@ -11,7 +11,10 @@ const config: Config = {
       colors(theme) {
         return {
           ...theme.colors,
-          primary: { ...theme.colors.purple },
+          primary: {
+            ...theme.colors.purple,
+            DEFAULT: theme.colors.purple['500'],
+          },
         };
       },
     },

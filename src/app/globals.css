@@ -9,6 +9,6 @@ body {
 
 @layer base {
     button {
-        @apply bg-primary-500 px-2 py-1 text-white;
+        @apply bg-primary px-2 py-1 text-white;
     }
 }
