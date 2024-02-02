@@ -5,8 +5,10 @@
 body {
     @apply m-2 p-2 bg-red-50;
     /*background-color: theme(backgroundColor.red.50);*/
+}
 
+@layer base {
     button {
-        @apply bg-blue-500 px-2 py-1 text-white;
+        @apply bg-primary-dark px-2 py-1 text-white;
     }
 }
