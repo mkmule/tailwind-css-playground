@@ -15,6 +15,7 @@ const links = [
   { href: '/buttons', label: 'Buttons' },
   { href: '/size-space', label: 'Size & Space' },
   { href: '/modal', label: 'Modal' },
+  { href: '/spacing', label: 'Spacing' },
 ];
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
