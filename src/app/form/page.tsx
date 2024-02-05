@@ -26,9 +26,9 @@ const FormPage = () => {
         </div>
 
         <div className="space-x-2">
-          <button>Submit</button>
-          <button>Reset</button>
-          <button disabled>Disabled</button>
+          <button className="btn-primary">Submit</button>
+          <button className="btn-danger">Reset</button>
+          <button disabled className="btn-secondary">Disabled</button>
         </div>
       </form>
 
