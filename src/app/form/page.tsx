@@ -25,7 +25,7 @@ const FormPage = () => {
           <label htmlFor="terms">I accept the terms and conditions.</label>
         </div>
 
-        <div className="space-x-2">
+        <div className="space-x-2 bg-red-500/50 flex justify-center">
           <button className="btn-primary">Submit</button>
           <button className="btn-danger">Reset</button>
           <button disabled className="btn-secondary">Disabled</button>
