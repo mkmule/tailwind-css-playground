@@ -18,6 +18,7 @@ const links = [
   { href: '/spacing', label: 'Spacing' },
   { href: '/form', label: 'Form' },
   { href: '/columns', label: 'Columns' },
+  { href: '/flex', label: 'Flex' },
 ];
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
